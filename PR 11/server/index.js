@@ -9,8 +9,8 @@ const swaggerUi = require('swagger-ui-express');
 const app = express();
 const port = 3000;
 
-const ACCESS_SECRET = 'access_secret_pr10';
-const REFRESH_SECRET = 'refresh_secret_pr10';
+const ACCESS_SECRET = 'access_secret_pr11';
+const REFRESH_SECRET = 'refresh_secret_pr11';
 const ACCESS_EXPIRES_IN = '15m';
 const REFRESH_EXPIRES_IN = '7d';
 
@@ -18,9 +18,9 @@ const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'API курсов (Практика 10)',
-      version: '1.0.0',
-      description: 'API с JWT и refresh-токенами',
+      title: 'API курсов по саморазвитию (RBAC) — Практика 11',
+      version: '1.1.0',
+      description: 'JWT access/refresh + RBAC роли (user/seller/admin) + управление пользователями',
     },
     servers: [{ url: `http://localhost:${port}`, description: 'Локальный сервер' }],
     components: {
