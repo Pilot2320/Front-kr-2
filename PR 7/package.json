@@ -1,0 +1,20 @@
+{
+  "name": "auth-products-api",
+  "version": "1.0.0",
+  "description": "API с аутентификацией и CRUD для курсов по саморазвитию",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["express", "bcrypt", "auth", "courses", "self-development"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0",
+    "nanoid": "^5.0.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
